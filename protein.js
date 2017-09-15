@@ -17,3 +17,11 @@ def protein_finder
 
 
 end
+
+function proteinPricing() {
+  let price  = prompt("Enter price:");
+  price = Math.round(parseFloat(price) * 100) / 100
+  let quantity = prompt("Enter quantity:");
+  let protein = prompt("Enter protein amount:");
+
+}
